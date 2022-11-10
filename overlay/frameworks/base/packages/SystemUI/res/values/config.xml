@@ -29,4 +29,14 @@
 
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
     <integer name="config_keyguardMaxRefreshRate">60</integer>
+
+    <!-- packages to exclude from camera protection -->
+    <string translatable="false" name="config_cameraProtectionExcludedPackages">co.aospa.sense</string>
+
+    <!-- The properties of the face auth camera -->
+    <integer-array name="config_face_auth_props">
+        <item>320</item> <!-- sensorLocationX -->
+        <item>@null</item> <!-- sensorLocationY -->
+        <item>40</item> <!--sensorRadius -->
+    </integer-array>
 </resources>
