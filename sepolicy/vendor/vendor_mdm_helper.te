@@ -15,3 +15,6 @@ allow vendor_mdm_helper mdm_tombstone_data_file:file create_file_perms;
 allow vendor_mdm_helper mdm_tombstone_data_file:file rw_file_perms;
 
 wakelock_use(vendor_mdm_helper)
+
+# Needed to allow boot over PCIe
+allow vendor_mdm_helper vendor_mhi_device:chr_file rw_file_perms;
