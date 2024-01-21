@@ -8,7 +8,7 @@
 PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33 34
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 
 #Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
