@@ -762,7 +762,7 @@ service vendor.LKCore-rel /vendor/bin/LKCore
     user system
     group system log diag
 
-on property:init.svc.vendor.charger=running
+on charger
     start qcom-post-boot
     wait /dev/block/bootdevice/by-name/system
     mount ext4 /dev/block/bootdevice/by-name/system / ro barrier=1
