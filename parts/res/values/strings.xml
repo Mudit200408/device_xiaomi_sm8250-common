@@ -61,6 +61,7 @@
     <string name="refresh_default">Default</string>
     <string name="refresh_standard">60Hz</string>    
     <string name="refresh_extreme">120Hz</string>    
+    <string name="refresh_land">60Hz on Landscape</string>    
 
     <!-- High Touch Polling -->
     <string name="htsr_title">Touch Responsiveness</string>
