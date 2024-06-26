@@ -113,7 +113,7 @@ public final class RefreshUtils {
         if (minrate > maxrate){
             minrate = maxrate;
         }
-        Settings.System.putFloat(mContext.getContentResolver(), KEY_PEAK_REFRESH_RATE, maxrate);
+        // Settings.System.putFloat(mContext.getContentResolver(), KEY_PEAK_REFRESH_RATE, maxrate);
     }
 
 
