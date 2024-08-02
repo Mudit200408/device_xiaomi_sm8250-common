@@ -151,16 +151,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "TASchedtuneBoost",
-      "Path": "/dev/stune/top-app/schedtune.boost",
-      "Values": [
-        "10",
-        "1",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -596,12 +586,6 @@
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "670000000"
-    },
-    {
-      "PowerHint": "GAME",
-      "Node": "TASchedtuneBoost",
-      "Duration": 0,
-      "Value": "10"
     }
   ]
 }
