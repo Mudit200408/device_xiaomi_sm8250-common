@@ -39,7 +39,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
-debug.hwui.renderer=skiagl
+debug.hwui.renderer=opengl
 
 # IMS
 persist.dbg.volte_avail_ovr=1
